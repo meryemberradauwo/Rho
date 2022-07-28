@@ -1,0 +1,739 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"MS Mincho";
+	panose-1:2 2 6 9 4 2 5 8 3 4;}
+@font-face
+	{font-family:SimSun;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Cambria;
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Times;
+	panose-1:2 2 6 3 5 4 5 2 3 4;}
+@font-face
+	{font-family:"Lucida Grande";}
+@font-face
+	{font-family:"\@MS Mincho";
+	panose-1:2 2 6 9 4 2 5 8 3 4;}
+@font-face
+	{font-family:"\@SimSun";
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.UPSectionHeading, li.UPSectionHeading, div.UPSectionHeading
+	{mso-style-name:"UP Section Heading";
+	margin:0cm;
+	font-size:13.0pt;
+	font-family:"Arial",sans-serif;
+	font-weight:bold;}
+p.UPPaperTitle, li.UPPaperTitle, div.UPPaperTitle
+	{mso-style-name:"UP Paper Title";
+	margin:0cm;
+	font-size:14.0pt;
+	font-family:"Arial",sans-serif;
+	font-weight:bold;}
+p.Text, li.Text, div.Text
+	{mso-style-name:Text;
+	margin:0cm;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:10.1pt;
+	line-height:105%;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+.MsoChpDefault
+	{font-size:10.0pt;}
+ /* Page Definitions */
+ @page WordSection1
+	{size:594.95pt 841.9pt;
+	margin:72.0pt 89.85pt 4.0cm 89.85pt;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+
+</head>
+
+<body lang=EN-CA link=blue vlink=purple style='word-wrap:break-word'>
+
+<div class=WordSection1>
+
+<p class=UPPaperTitle><span lang=EN-GB style='font-size:12.0pt;font-family:
+"Times New Roman",serif'>Rho: Application to analyse electrical resistivity</span></p>
+
+<p class=MsoNormal><span lang=EN-GB>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-GB>Meryem Berrada<sup>1      </sup><a
+href="mailto:mberrada@uwo.ca"><span style='color:windowtext'>mberrada@uwo.</span><span
+style='color:windowtext;text-decoration:none'>ca</span></a><span
+class=MsoHyperlink><span style='color:windowtext;text-decoration:none'>   
+https://orcid.org/0000-0002-4934-0917</span></span></span></p>
+
+<p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph'><span
+lang=EN-GB>Richard A. Secco<sup>1</sup>     <a href="mailto:secco@uwo.ca"><span
+style='color:windowtext'>secco@uwo.ca</span></a><span class=MsoHyperlink><span
+style='color:windowtext;text-decoration:none'>          https://orcid.org/0000-0001-5029-659X</span></span></span></p>
+
+<p class=MsoNormal><span lang=EN-GB>&nbsp;</span></p>
+
+<p class=MsoNormal><sup><span lang=EN-GB>1</span></sup><span lang=EN-GB>Department
+of Earth Sciences, University of Western Ontario, London, ON, Canada </span></p>
+
+<p class=MsoNormal><span lang=EN-GB>&nbsp;</span></p>
+
+<p class=UPSectionHeading><span lang=EN-GB style='font-size:12.0pt;font-family:
+"Times New Roman",serif'>Abstract</span></p>
+
+<p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph'><span
+lang=EN-GB>Electrical resistivity measurements of metals often use the four-wire
+method, where data acquisition alternates between temperature and voltage. The
+temperature and voltage values are similar and manual selection of each set of
+measurements is time consuming. <i>Rho</i> is intended to make electrical
+resistivity data analysis faster and more reliable by automatically selecting
+the temperature and voltage measurements using signal processing. The time
+required to process 52 data points (which consists of approximately 6000
+measurements) using <i>Rho</i> is less than one minute compared to up to 4
+hours for manual processing. <i>Rho</i> is stored in <i>FigShare</i> and can be
+used by any research group conducting alternate temperature and voltage
+measurements to obtain electrical resistivity at either ambient or extreme
+conditions.</span></p>
+
+<p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph'><span
+lang=EN-GB>&nbsp;</span></p>
+
+<p class=UPSectionHeading><span lang=EN-GB style='font-size:12.0pt;font-family:
+"Times New Roman",serif'>Keywords</span></p>
+
+<p class=UPSectionHeading><span lang=EN-GB style='font-size:12.0pt;font-family:
+"Times New Roman",serif;font-weight:normal'>Electrical Resistivity; Thermal
+Conductivity; Data analysis; Voltage drop</span></p>
+
+<p class=UPSectionHeading><span lang=EN-GB style='font-size:12.0pt;font-family:
+"Times New Roman",serif;font-weight:normal'>&nbsp;</span></p>
+
+<p class=UPSectionHeading><span lang=EN-GB style='font-size:12.0pt;font-family:
+"Times New Roman",serif'>Introduction </span></p>
+
+<p class=UPSectionHeading style='text-align:justify;text-justify:inter-ideograph'><span
+lang=EN-GB style='font-size:12.0pt;font-family:"Times New Roman",serif;
+font-weight:normal'>Electrical resistivity of materials is a basic property
+that is measured and used in a large variety of studies. In one type of study,
+electrical resistivity data are used to calculate thermal conductivity and
+interior heat flow of terrestrial-type bodies. The electrical resistivity of a
+sample is often obtained using the four-wire method as it reduces the
+contribution of the electrodes that is present in the two-wire method. The
+four-wire method is used in the cooling of industrial devices [1], soldering
+processes [2], electronic systems [3], temperature determination at depth [4],
+and simulations of physical properties of terrestrial-type bodies at high
+pressures and high temperatures. High pressure and high temperature
+measurements of electrical resistivity (&#961;) in high pressure multi-anvil
+presses are used to calculate thermal conductivity (k) and the heat flow in the
+interiors of terrestrial-type bodies. Ezenwa and Secco [5] developed a
+four-wire method to solve the voltage bias, caused by passing a test current in
+a single direction, which previously resulted in erroneous analysis of &#961;
+measurements due to parasitic voltages caused by the Seebeck effect or other
+sources. This polarity switching method allowed successful measurements of
+&#961; of Zn [5], Nb [6], Ni [7], Co [8], Cu [9], Fe [10,11], Ag [12], W [13],
+Re [13], Au [14], Fe-Si alloys [15-17], and Fe-S alloys [18]. Three other
+papers from different research groups report using similar data collection
+practices, while several other papers use the four-wire method without a
+polarity switch [19]. In these measurements, the sample is located in the
+middle of a high-pressure cell, between two metal discs which are each
+contacted by a thermocouple. The metal discs, ensuring contact between the
+thermocouples and the sample, are typically composed of W. The thermocouples
+are typically Type-C thermocouples (one leg is made of 95%W/5%Re and the other
+leg is made of 74%W/26%Re) where voltage (i.e., thermoelectric emf) is measured
+and then converted to temperature after the experiment. The voltage drop across
+the sample for resistivity measurement is made between a pair of wires on
+opposite sides of the sample (one wire leg from each thermocouple), and
+therefore includes the voltage contribution of the discs. Thus, the &#961; of
+the sample is obtained by subtracting the disc contribution from the total
+measurement.</span></p>
+
+<p class=UPSectionHeading style='text-align:justify;text-justify:inter-ideograph'><span
+lang=EN-GB style='font-size:12.0pt;font-family:"Times New Roman",serif;
+font-weight:normal'>&nbsp;</span></p>
+
+<p class=Text style='text-indent:0cm;line-height:normal'><span lang=EN-US
+style='font-size:12.0pt'>The four-wire method incorporates a polarity switch
+and a mode switch, and results in a pattern of alternating values of
+temperature (emf) and voltage in a single column when acquired by a single
+voltmeter. A complete measurement produces a pattern similar to the following:
+temperature emf before voltage measurement (T<sub>b</sub>), positive voltage
+drop with polarity in one direction (V<sup>+</sup>), negative voltage drop with
+polarity in opposite direction (V<sup>&#8209;</sup>), temperature emf after
+voltage measurement (T<sub>a</sub>). The order of V<sup>+</sup> and V<sup>-</sup>
+may be alternated depending on the position of the polarity switch. At the
+University of Western Ontario, in the High-Pressure High-Temperature
+Laboratory, a programmable Keysight B2961 power supply is used to provide a
+constant direct test current of 0.2 A while data are acquired by a programmable
+Keysight 34470A meter operating at 20 Hz and 1 µV resolution. The application <i>Rho</i>
+calculates the average of 10 data points for each temperature section and all
+available data points for each voltage section. It is expected that temperature
+remains stable during these 10 data points. At high temperatures, when the
+frequency of measurements is increased and the quantity of data points in each
+section is low (due to the rapid switching between each section), <i>Rho</i>
+selects all the available data for each section. The values in each selection
+are averaged. Then the V<sup>+</sup> and V<sup>-</sup> selections are averaged
+to give the voltage drop (V), while T<sub>b</sub> and T<sub>a</sub> selections
+are averaged to give the temperature (T). The voltage drop and current (I) are
+then used to calculate the electrical resistance (R) of the sample using Ohm’s
+law: </span></p>
+
+<table class=TableGrid1 border=0 cellspacing=0 cellpadding=0 width=552
+ style='width:413.9pt;border-collapse:collapse;border:none'>
+ <tr style='height:26.45pt'>
+  <td width=510 style='width:382.4pt;padding:0cm 5.4pt 0cm 5.4pt;height:26.45pt'>
+  <p class=MsoNormal style='margin-right:-41.25pt;text-autospace:none'><span
+  lang=EN-GB style='font-size:12.0pt;font-family:"Times New Roman",serif'><img
+  width=42 height=36
+  src="Berrada%20and%20Secco%20-%20rho%20manuscript%20JOSS_files/image001.png"></span></p>
+  </td>
+  <td width=42 style='width:31.5pt;padding:0cm 5.4pt 0cm 5.4pt;height:26.45pt'>
+  <p class=MsoNormal style='text-autospace:none'><span lang=EN-GB>(1)</span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=Text style='text-indent:0cm;line-height:normal'><span lang=EN-US
+style='font-size:12.0pt;color:white'>The electrical resistivity is then
+calculated using Pouillet’s law:</span></p>
+
+<table class=TableGrid1 border=0 cellspacing=0 cellpadding=0 width=551
+ style='width:413.4pt;border-collapse:collapse;border:none'>
+ <tr style='height:30.0pt'>
+  <td width=509 style='width:381.9pt;padding:0cm 5.4pt 0cm 5.4pt;height:30.0pt'>
+  <p class=MsoNormal style='margin-right:-41.25pt;text-autospace:none'><span
+  lang=EN-GB style='font-size:12.0pt;font-family:"Times New Roman",serif'><img
+  width=51 height=36
+  src="Berrada%20and%20Secco%20-%20rho%20manuscript%20JOSS_files/image002.png"></span></p>
+  </td>
+  <td width=42 style='width:31.5pt;padding:0cm 5.4pt 0cm 5.4pt;height:30.0pt'>
+  <p class=MsoNormal style='text-autospace:none'><span lang=EN-GB>(2)</span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=Text style='text-indent:0cm;line-height:normal'><span lang=EN-US
+style='font-size:12.0pt;color:white'>where </span><i><span lang=EN-US
+style='font-size:12.0pt'>A</span></i><span lang=EN-US style='font-size:12.0pt'>
+is the sample’s cross-sectional area and <i>l</i> is the sample’s length which
+are both measured on the post-experiment recovered sample. Values of &#961; are
+then used to calculate the electronic component of thermal conductivity (k) via
+the empirical Wiedemann-Franz law:</span></p>
+
+<table class=TableGrid1 border=0 cellspacing=0 cellpadding=0 width=552
+ style='width:413.9pt;border-collapse:collapse;border:none'>
+ <tr style='height:34.5pt'>
+  <td width=510 style='width:382.4pt;padding:0cm 5.4pt 0cm 5.4pt;height:34.5pt'>
+  <p class=MsoNormal style='margin-right:-41.25pt;text-autospace:none'><span
+  lang=EN-GB style='font-size:12.0pt;font-family:"Times New Roman",serif'><img
+  width=67 height=39
+  src="Berrada%20and%20Secco%20-%20rho%20manuscript%20JOSS_files/image003.png"></span></p>
+  </td>
+  <td width=42 style='width:31.5pt;padding:0cm 5.4pt 0cm 5.4pt;height:34.5pt'>
+  <p class=MsoNormal style='text-autospace:none'><span lang=EN-GB>(3)</span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=Text style='text-indent:0cm;line-height:normal'><span lang=EN-US
+style='font-size:12.0pt;color:white'>where T is</span><span lang=EN-US
+style='font-size:12.0pt'> temperature and L<sub>o</sub> is the theoretical
+Sommerfeld value (L<sub>o</sub> = 2.44&#8729;10<sup>-8</sup>
+W&#8729;&#937;&#8729;K<sup>-2</sup>) of the Lorenz number. The error in
+temperature measurement corresponds to the standard deviation of the data
+points of each temperature section. The error in &#961; is obtained by error
+propagation using the uncertainties in sample geometry and standard deviation
+of the voltage measurements. Similarly, the error in k corresponds to the
+propagation of the error in &#961;. The selection of temperature and voltage
+values is typically done manually, and, to our knowledge, no software available
+in the literature is capable of automatically processing the temperature and
+voltage signals. </span></p>
+
+<p class=MsoNormal><b><span lang=EN-GB>&nbsp;</span></b></p>
+
+<p class=MsoNormal><b><span lang=EN-GB>Implementation and architecture</span></b></p>
+
+<p class=Text style='text-indent:0cm;line-height:normal'><span lang=EN-US
+style='font-size:12.0pt'>The main page of <i>Rho</i> is displayed in <b>Fig.1a</b>.
+The application requires data to be imported in .xlsx, .csv, or .xls format,
+where the T<sub>b</sub>, V<sup>+</sup>, V<sup>-</sup>, and T<sub>a</sub> data
+alternate within the first column of the file (see <b>Fig.1b</b>). The first
+figure (see <b>Fig. 1a</b>) that is generated when the file is loaded is of the
+raw data. Noise, or abrupt fluctuation in data, that are not representative of
+the measurements can be removed by selecting the starting and ending indices
+(x-axis) of the section. The application attributes NaN values to each data
+point of this section, which removes them from the future analysis. When ‘Plot
+Data’ is selected, <i>Rho</i> identifies the temperature and voltage sections
+based on deviations from the main increasing trend, which corresponds to the
+temperature increase with time. </span></p>
+
+<p class=Text style='text-indent:0cm;line-height:normal'><span lang=EN-US
+style='font-size:12.0pt'>&nbsp;</span></p>
+
+<p class=Text style='text-indent:0cm;line-height:normal'><span lang=EN-US
+style='font-size:12.0pt'><img border=0 width=553 height=255 id="Picture 2"
+src="Berrada%20and%20Secco%20-%20rho%20manuscript%20JOSS_files/image004.png"></span></p>
+
+<p class=Text style='text-indent:0cm;line-height:normal'><b><span lang=EN-US
+style='font-size:12.0pt'>Fig.1:</span></b><span lang=EN-US style='font-size:
+12.0pt'> <b>(a)</b> Main screen. The input parameters options are displayed on
+the left panel. A visualization of the Data selection, resulting resistivity
+and output results are displayed on the right. An example raw data set of Fe at
+8 GPa is displayed in Figure 1 [16]. <b>(b)</b> Example of raw data Excel file
+for Fe at 8 GPa [16] where all measurements are within the first column of the
+file. The identification of parameter sequence is shown in the right column for
+the first two sets of data for clarity here only (this not included in the
+original data file).</span></p>
+
+<p class=Text style='text-indent:0cm;line-height:normal'><span lang=EN-US
+style='font-size:12.0pt'>&nbsp;</span></p>
+
+<p class=Text style='text-indent:0cm;line-height:normal'><span lang=EN-US
+style='font-size:12.0pt'>First, the intervals of negative values are labelled
+as voltage measurements (V<sub>total</sub>). This temporary selection is
+displayed in Figure 1 of the application (see <b>Fig. 2a</b> below). In the
+first scenario, the pattern T<sub>b</sub> V<sup>+</sup> V<sup>-</sup> T<sub>a</sub>
+is considered and T<sub>b</sub> and T<sub>a</sub> are temporarily identified.
+To satisfy this scenario, the difference between T<sub>b</sub> and V<sub>total</sub>
+must be smaller than the difference between T<sub>a</sub> and V<sub>total</sub>
+considering that the part of V<sub>total</sub> closer to T<sub>b</sub> would be
+V<sup>+</sup> and that closer to T<sub>a</sub> would be V<sup>-</sup> (and V<sup>-</sup>
+&lt; V<sup>+</sup>). <i>Rho</i> uses a loop to evaluate this scenario at each
+deviation from the main increasing trend. Whenever the scenario is observed, V<sup>+</sup>
+is temporarily defined as the first trend in V<sub>total</sub>. In the second
+scenario, the pattern T<sub>b</sub> V<sup>-</sup> V<sup>+</sup> T<sub>a</sub>
+is considered, and a similar loop is applied to identify the intervals where
+the difference between T<sub>b</sub> and V<sub>total</sub> is larger than that
+of T<sub>a</sub> and V<sub>total</sub>. Here, the part of V<sub>total</sub>
+closer to T<sub>b</sub> would be V<sup>-</sup> and that closer to T<sub>a</sub>
+would be V<sup>+</sup>. Another analysis of the first scenario identifies the
+stable intervals on the main increasing trend right before V<sup>+</sup> as T<sub>b</sub>,
+and that right after V<sup>-</sup> as T<sub>a</sub>. In other words,
+fluctuations, or noise, between temperature and voltage measurements are
+automatically ignored. A similar analysis of the second scenario identifies the
+stable intervals on the main increasing trend right before V<sup>-</sup> as T<sub>b</sub>
+and that right after V<sup>+</sup> as T<sub>a</sub>. The corresponding indexes
+(x-axis) and data (y-axis) for each selection are combined into variables for T<sub>b</sub>,
+V<sup>-</sup>, V<sup>+</sup>, and T<sub>a</sub>. The ‘Outliers Degrees of
+Freedom’ parameter evaluates the differences between the trends of V<sup>-</sup>
+and V<sup>+</sup> and identifies data points outside of these trends as
+outliers. A larger degree of freedom will include more data points in the final
+variables for V<sup>-</sup> and V<sup>+</sup>, while a smaller degree of
+freedom will ignore more data points. The value 20 seems to be the best fit for
+this parameter, although it can be adjusted by the user. In other words,
+fluctuations of 20 times and more are defined as outliers. The final selection
+is displayed in Figure 2 of the application (see <b>Fig. 2a</b> and <b>2d</b>).
+The contribution of the discs to the measured &#961; is subtracted by fitting
+the &#961; of the selected material. The ‘Discs’ dropdown menu contains options
+of W from 2-5 GPa [13], Re from 2-5 GPa [13] and Pt at 1 atm, 10 and 20 GPa [20].
+Supplementary options may be added to future updates of the application as data
+become available in the literature for different metals used for the discs.
+Temperature is automatically converted from emf to (K) using the selected
+thermocouple calibration equation. The ‘Thermocouple’ dropdown menu contains
+options for Type-C [21], Type-S at 1 atm [22] and Type-S from 1-5 GPa
+thermocouples [23]. The input parameters are then used in equation (1), (2) and
+(3) to plot &#961; in Figure 3 of the application and output values of T (K),
+&#961; (µ&#937;·cm), error in &#961; (µ&#937;·cm), k (Wm<sup>-1</sup>K<sup>-1</sup>)
+and error in k (Wm<sup>-1</sup>K<sup>-1</sup>) (see <b>Fig. 2b</b> and <b>2c</b>).
+The values are displayed in the ‘Output’ tab and can be copied and pasted on
+another platform for further analysis.</span></p>
+
+<p class=Text style='text-indent:0cm;line-height:normal'><span lang=EN-US
+style='font-size:12.0pt'><img border=0 width=554 height=496 id="Picture 3"
+src="Berrada%20and%20Secco%20-%20rho%20manuscript%20JOSS_files/image005.png"></span></p>
+
+<p class=Text style='text-indent:0cm;line-height:normal'><b><span lang=EN-US
+style='font-size:12.0pt'>Fig.2:</span></b><span lang=EN-US style='font-size:
+12.0pt'> <b>(a)</b> Temporary and final selections of the temperature and
+voltage sections. <b>(b)</b> Calculated resistivity compared with that of Fe at
+1 atm [24]. <b>(c)</b> Output values of T (K), &#961; (µ&#937;·cm), error in
+&#961; (µ&#937;·cm), k (Wm<sup>-1</sup>K<sup>-1</sup>) and error in k (Wm<sup>-1</sup>K<sup>-1</sup>).
+<b>(d)</b> Example of the final selections of one measurement for each
+parameter.</span></p>
+
+<p class=MsoNormal><b><span lang=EN-GB>&nbsp;</span></b></p>
+
+<p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph'><span
+lang=EN-GB>Examples of running the software are displayed in <b>Fig.2</b>.
+After loading the raw data file, Figure 1 of the application should
+automatically display the raw data. If the raw data file is in the incorrect
+format, an error sound will be set, and Figure 1 will not display the raw data.
+</span><span lang=EN-GB>The users should confirm the temperature and voltage
+selections since similarity in these values might result in the incorrect
+identification of some data points. </span><span lang=EN-GB>The computed </span><span
+lang=EN-GB>&#961; can be compared with that of Fe at 1 atm [24].</span></p>
+
+<p class=MsoNormal><b><span lang=EN-GB>&nbsp;</span></b></p>
+
+<p class=MsoNormal><b><span lang=EN-GB>Availability</span></b></p>
+
+<p class=MsoNormal><span lang=EN-GB>Users may choose to download <i>Rho.exe </i>file
+from <i>FigShare</i> or <i>Rho.m </i>from <i>GitHub</i>. </span></p>
+
+<p class=MsoNormal><i><span lang=EN-GB>Rho.exe</span></i><span lang=EN-GB> –
+Any system capable of running a .exe file. </span></p>
+
+<p class=MsoNormal><i><span lang=EN-GB>Rho.m</span></i><span lang=EN-GB> – Any
+system capable of running Matlab R2012a or higher. </span></p>
+
+<p class=MsoNormal><b><i><span lang=EN-GB>&nbsp;</span></i></b></p>
+
+<p class=MsoNormal><span lang=EN-GB>Tested in Matlab R2012a, likely to work in
+earlier versions also. </span></p>
+
+<p class=MsoNormal><span lang=EN-GB>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-left:18.0pt'><span lang=EN-GB>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-left:7.1pt'><b><i><span lang=EN-GB>Name:</span></i></b><span
+lang=EN-GB> FigShare Archive</span></p>
+
+<p class=MsoNormal style='margin-left:7.1pt'><b><i><span lang=EN-GB>Persistent
+identifier:</span></i></b><span lang=EN-GB> 10.6084/m9.figshare.19175432  </span></p>
+
+<p class=MsoNormal style='margin-left:7.1pt'><b><i><span lang=EN-GB>Licence: </span></i></b><span
+lang=EN-GB>CC by 4.0</span></p>
+
+<p class=MsoNormal style='margin-left:7.1pt'><b><i><span lang=EN-GB>Publisher: </span></i></b><span
+lang=EN-GB>Meryem Berrada</span></p>
+
+<p class=MsoNormal style='margin-left:7.1pt'><b><i><span lang=EN-GB>Version
+published:</span></i></b><i><span lang=EN-GB> </span></i><span lang=EN-GB>1.0</span></p>
+
+<p class=MsoNormal style='margin-left:7.1pt'><b><i><span lang=EN-GB>Date
+published: </span></i></b><span lang=EN-GB>15/02/22</span></p>
+
+<p class=MsoNormal style='margin-left:7.1pt'><b><span lang=EN-GB>Code
+repository</span></b><span lang=EN-GB> (e.g. SourceForge, GitHub etc.) (required)
+</span></p>
+
+<p class=MsoNormal style='margin-left:7.1pt'><span lang=EN-GB>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-left:7.1pt'><b><i><span lang=EN-GB>Name:</span></i></b><span
+lang=EN-GB> GitHub</span></p>
+
+<p class=MsoNormal style='margin-left:7.1pt'><b><i><span lang=EN-GB>Identifier:</span></i></b><span
+lang=EN-GB> </span><span lang=EN-GB><a
+href="https://github.com/meryemberradauwo/Rho.git"><span style='color:windowtext'>https://github.com/meryemberradauwo/Rho.git</span></a></span><span
+lang=EN-GB> </span></p>
+
+<p class=MsoNormal style='margin-left:7.1pt'><b><i><span lang=EN-GB>Licence: </span></i></b><span
+lang=EN-GB>GNU General Public License v3.0</span></p>
+
+<p class=MsoNormal style='margin-left:7.1pt'><b><i><span lang=EN-GB>Date
+published: </span></i></b><span lang=EN-GB>02/02/22</span></p>
+
+<p class=MsoNormal style='margin-left:7.1pt'><span lang=EN-GB>&nbsp;</span></p>
+
+<p class=MsoNormal><b><span lang=EN-GB>Statement of need</span></b></p>
+
+<p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph'><span
+lang=EN-GB>The application <i>Rho</i> minimizes the data analysis time and uses
+signal processing to identify the temperature (emf) and voltage drop
+measurements from a single column of alternating measurements resulting from
+the four-wire method. The confirmation of the selection by the user remains
+required considering the limitations of the attributed thresholds for outliers.
+This software (<i>Rho.exe</i>) can be used to analyse electrical resistivity
+for applications to the cooling of industrial devices, soldering processes,
+electronic systems, temperature determination at depth, and simulations of </span><span
+lang=EN-GB>physical properties of terrestrial-type bodies at high pressures and
+high temperatures. <i>Rho</i> can be used by </span><span lang=EN-GB>any
+research group </span><span lang=EN-GB>conducting alternate temperature (emf)
+and voltage measurements to obtain electrical resistivity at either ambient or
+extreme conditions. Modifications to the software, such as changing the
+identification thresholds, adding TC types or disc materials, can be done
+through <i>Rho.m</i> via the MATLAB platform. The authors are continuously working
+to improve the software and implement more features. </span></p>
+
+<p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph'><span
+lang=EN-GB>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph'><span
+lang=EN-GB>We encourage the reader to download Rho via MATLAB [25] or through
+this article. Inquiries can be addressed to the corresponding author of this
+article, or through the contact information displayed in the software.</span></p>
+
+<p class=MsoNormal><span lang=EN-GB>&nbsp;</span></p>
+
+<p class=MsoNormal><b><span lang=EN-GB>Acknowledgements</span></b></p>
+
+<p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph'><span
+lang=EN-GB>The application is designed on MATLAB App Designer. MATLAB is a
+registered trademark of The MathWorks, Inc. </span></p>
+
+<p class=MsoNormal><span lang=EN-GB>&nbsp;</span></p>
+
+<p class=MsoNormal><a name="OLE_LINK9"></a><a name="OLE_LINK10"><b><span
+lang=EN-GB>Funding statement </span></b></a></p>
+
+<p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph'><span
+lang=EN-GB>This work was supported by funds to R.A.S. from the Natural Sciences
+and Engineering Research Council of Canada [grant number 2018-05021] and the
+Canada Foundation for Innovation [project number 11860].</span></p>
+
+<p class=MsoNormal><span lang=EN-GB>&nbsp;</span></p>
+
+<p class=MsoNormal><b><span lang=EN-GB>Competing interests </span></b></p>
+
+<p class=MsoNormal><span lang=EN-GB>The authors declare that they have no
+competing interests.</span></p>
+
+<p class=MsoNormal><span lang=EN-GB>&nbsp;</span></p>
+
+<p class=MsoNormal><b><span lang=EN-GB>References </span></b></p>
+
+<p class=MsoListParagraphCxSpFirst style='margin-left:21.3pt;text-indent:-21.3pt'><span
+lang=EN-GB>[1]<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+lang=EN-GB>Hapenciuc, C. L., Negut, I., Borca-Tasciuc, T., &amp; Mihailescu, I.
+N. (2019). A steady-state hot-wire method for thermal conductivity measurements
+of fluids. International Journal of Heat and Mass Transfer, 134, 993-1002. <a
+href="https://doi.org/10.1016/j.ijheatmasstransfer.2019.01.098"><span
+style='color:windowtext'>https://doi.org/10.1016/j.ijheatmasstransfer.2019.01.098</span></a>
+</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:21.3pt;text-indent:-21.3pt'><span
+lang=EN-GB>[2]<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+lang=EN-GB>Tillmann, W., Sievers, N., Henning, T., &amp; Jakimenko, D. (2017).
+FEM study of analyzing the electrical resistance of brazed joint by the 4-wire
+technique for quality assurance. Measurement, 104, 43-49. <a
+href="https://doi.org/10.1016/j.measurement.2017.03.015"><span
+style='color:windowtext'>https://doi.org/10.1016/j.measurement.2017.03.015</span></a>
+</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:21.3pt;text-indent:-21.3pt'><span
+lang=EN-GB>[3]<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+lang=EN-GB>Krishnamurthy, R., Bharatiraja, C., Adedayo, Y., Tariq, M., &amp;
+Azeem, A. (2019). Locating Wire Fault in Controller Area Network Based on
+Kelvin (Four-Wire) Resistance Approach. Paper presented at the Applications of
+Computing, Automation and Wireless Systems in Electrical Engineering,
+Singapore. <a href="https://doi.org/10.1007/978-981-13-6772-4_98"><span
+style='color:windowtext'>https://doi.org/10.1007/978-981-13-6772-4_98</span></a>
+</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:21.3pt;text-indent:-21.3pt'><span
+lang=EN-GB>[4]<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+lang=EN-GB>Erkan, K., Akkoyunlu, B., Balkan, E., &amp; Tayanç, M. (2017). A
+portable borehole temperature logging system using the four-wire resistance
+method. Journal of Geophysics and Engineering, 14(6), 1413-1419. <a
+href="https://doi.org/10.1088/1742-2140/aa7ffe"><span style='color:windowtext'>https://doi.org/10.1088/1742-2140/aa7ffe</span></a>
+</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:21.3pt;text-indent:-21.3pt'><span
+lang=EN-GB>[5]<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+lang=EN-GB>Ezenwa, I. C., &amp; Secco, R. A. (2017a). Constant electrical
+resistivity of Zn along the melting boundary up to 5 GPa. High Pressure
+Research, 37(3), 319-333. <a
+href="https://doi.org/10.1080/08957959.2017.1340473"><span style='color:windowtext'>https://doi.org/10.1080/08957959.2017.1340473</span></a>
+</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:21.3pt;text-indent:-21.3pt'><span
+lang=EN-GB>[6]<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+lang=EN-GB>Ezenwa, I. C., &amp; Secco, R. A. (2017b). Electronic transition in
+solid Nb at high pressure and temperature. Journal of Applied Physics, 121(22),
+225903. <a href="https://doi.org/10.1063/1.4985548"><span style='color:windowtext'>https://doi.org/10.1063/1.4985548</span></a>
+</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:21.3pt;text-indent:-21.3pt'><span
+lang=EN-GB>[7]<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+lang=EN-GB>Silber, R. E., Secco, R. A., &amp; Yong, W. (2017). Constant electrical
+resistivity of Ni along the melting boundary up to 9 GPa. Journal of
+Geophysical Research: Solid Earth, 122(7), 5064-5081. <a
+href="https://doi.org/10.1002/2017JB014259"><span style='color:windowtext'>https://doi.org/10.1002/2017JB014259</span></a>
+</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:21.3pt;text-indent:-21.3pt'><span
+lang=EN-GB>[8]<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+lang=EN-GB>Ezenwa, I. C., &amp; Secco, R. A. (2017c). Invariant electrical
+resistivity of Co along the melting boundary. Earth and Planetary Science
+Letters, 474, 120-127. <a href="https://doi.org/10.1016/j.epsl.2017.06.032"><span
+style='color:windowtext'>https://doi.org/10.1016/j.epsl.2017.06.032</span></a> </span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:21.3pt;text-indent:-21.3pt'><span
+lang=EN-GB>[9]<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+lang=EN-GB>Ezenwa, I. C., Secco, R. A., Yong, W., Pozzo, M., &amp; Alfè, D.
+(2017). Electrical resistivity of solid and liquid Cu up to 5 GPa: Decrease
+along the melting boundary. Journal of Physics and Chemistry of Solids, 110,
+386-393. <a href="https://doi.org/10.1016/j.jpcs.2017.06.030"><span
+style='color:windowtext'>https://doi.org/10.1016/j.jpcs.2017.06.030</span></a> </span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:21.3pt;text-indent:-21.3pt'><span
+lang=EN-GB>[10]<span style='font:7.0pt "Times New Roman"'> </span></span><span
+lang=EN-GB>Silber, R. E., Secco, R. A., Yong, W., &amp; Littleton, J. A. H.
+(2018). Electrical resistivity of liquid Fe to 12&#8201;GPa: Implications for
+heat flow in cores of terrestrial bodies. Scientific Reports, 8(1), 10758. <a
+href="https://doi.org/10.1038/s41598-018-28921-w"><span style='color:windowtext'>https://doi.org/10.1038/s41598-018-28921-w</span></a>
+</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:21.3pt;text-indent:-21.3pt'><span
+lang=EN-GB>[11]<span style='font:7.0pt "Times New Roman"'> </span></span><span
+lang=EN-GB>Yong, W., Secco, R. A., Littleton, J. A. H., &amp; Silber, R. E.
+(2019). The Iron Invariance: Implications for Thermal Convection in Earth's
+Core. Geophysical Research Letters, 46(20), 11065-11070. <a
+href="https://doi.org/10.1029/2019GL084485"><span style='color:windowtext'>https://doi.org/10.1029/2019GL084485</span></a>
+</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:21.3pt;text-indent:-21.3pt'><span
+lang=EN-GB>[12]<span style='font:7.0pt "Times New Roman"'> </span></span><span
+lang=EN-GB>Littleton, J. A. H., Secco, R. A., &amp; Yong, W. (2018). Decreasing
+electrical resistivity of silver along the melting boundary up to 5 GPa. High
+Pressure Research, 38(2), 99-106. <a
+href="https://doi.org/10.1080/08957959.2018.1435786"><span style='color:windowtext'>https://doi.org/10.1080/08957959.2018.1435786</span></a>
+</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:21.3pt;text-indent:-21.3pt'><span
+lang=EN-GB>[13]<span style='font:7.0pt "Times New Roman"'> </span></span><span
+lang=EN-GB>Littleton, J. A. H., Secco, R. A., Yong, W., &amp; Berrada, M.
+(2019). Electrical resistivity and thermal conductivity of W and Re up to
+5&#8201;GPa and 2300&#8201;K. Journal of Applied Physics, 125(13), 135901. <a
+href="https://doi.org/10.1080/08957959.2018.1435786"><span style='color:windowtext'>https://doi.org/10.1080/08957959.2018.1435786</span></a>
+</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:21.3pt;text-indent:-21.3pt'><span
+lang=EN-GB>[14]<span style='font:7.0pt "Times New Roman"'> </span></span><span
+lang=EN-GB>Berrada, M., Secco, R. A., &amp; Yong, W. (2018). Decreasing
+electrical resistivity of gold along the melting boundary up to 5 GPa. High
+Pressure Research, 38(4), 367-376. <a
+href="https://doi.org/10.1080/08957959.2018.1493476"><span style='color:windowtext'>https://doi.org/10.1080/08957959.2018.1493476</span></a>
+</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:21.3pt;text-indent:-21.3pt'><span
+lang=EN-GB>[15]<span style='font:7.0pt "Times New Roman"'> </span></span><span
+lang=EN-GB>Silber, R. E., Secco, R. A., Yong, W., &amp; Littleton, J. A. H.
+(2019). Heat Flow in Earth's Core From Invariant Electrical Resistivity of
+Fe-Si on the Melting Boundary to 9 GPa: Do Light Elements Matter? Journal of
+Geophysical Research: Solid Earth, 124(6), 5521-5543. <a
+href="https://doi.org/10.1029/2019JB017375"><span style='color:windowtext'>https://doi.org/10.1029/2019JB017375</span></a>
+</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:21.3pt;text-indent:-21.3pt'><span
+lang=EN-GB>[16]<span style='font:7.0pt "Times New Roman"'> </span></span><span
+lang=EN-GB>Berrada, M., Secco, R. A., &amp; Yong, W. (2020). Electrical
+resistivity measurements of Fe-Si with implications for the early lunar dynamo.
+Journal of Geophysical Research: Planets. <a
+href="https://doi.org/10.1029/2020JE006380"><span style='color:windowtext'>https://doi.org/10.1029/2020JE006380</span></a>
+</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:21.3pt;text-indent:-21.3pt'><span
+lang=EN-GB>[17]<span style='font:7.0pt "Times New Roman"'> </span></span><span
+lang=EN-GB>Berrada, M., Secco, R. A., &amp; Yong, W. (2021). Adiabatic Heat
+Flow in Mercury’s Core from Electrical Resistivity Measurements of Liquid
+Fe-8.5wt%Si to 24 GPa. Earth and Planetary Science Letters. <a
+href="https://doi.org/10.1016/j.epsl.2021.117053"><span style='color:windowtext'>https://doi.org/10.1016/j.epsl.2021.117053</span></a>
+</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:21.3pt;text-indent:-21.3pt'><span
+lang=EN-GB>[18]<span style='font:7.0pt "Times New Roman"'> </span></span><span
+lang=EN-GB>Littleton, J. A. H., Secco, R. A., &amp; Yong, W. (2021). Electrical
+Resistivity of FeS at High Pressures and Temperatures: Implications of Thermal
+Transport in the Core of Ganymede. Journal of Geophysical Research: Planets,
+126(5). <a href="https://doi.org/10.1029/2020JE006793"><span style='color:windowtext'>https://doi.org/10.1029/2020JE006793</span></a>
+</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:21.3pt;text-indent:-21.3pt'><span
+lang=EN-GB>[19]<span style='font:7.0pt "Times New Roman"'> </span></span><span
+lang=EN-GB>Berrada, M., &amp; Secco, R. A. (2021). Review of Electrical
+Resistivity Measurements and Calculations of Fe and Fe-Alloys Relating to
+Planetary Cores. Frontiers in Earth Science, 9(802). Review. <a
+href="https://doi.org/10.3389/feart.2021.732289"><span style='color:windowtext'>https://doi.org/10.3389/feart.2021.732289</span></a>
+</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:21.3pt;text-indent:-21.3pt'><span
+lang=EN-GB>[20]<span style='font:7.0pt "Times New Roman"'> </span></span><span
+lang=EN-GB>Gomi, H., &amp; Yoshino, T. (2019). Resistivity, Seebeck
+coefficient, and thermal conductivity of platinum at high pressure and
+temperature. Physical Review B, 100(21), 214302. <a
+href="https://link.aps.org/doi/10.1103/PhysRevB.100.214302"><span
+style='color:windowtext'>https://link.aps.org/doi/10.1103/PhysRevB.100.214302</span></a>
+</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:21.3pt;text-indent:-21.3pt'><span
+lang=EN-GB>[21]<span style='font:7.0pt "Times New Roman"'> </span></span><span
+lang=EN-GB>Omega. (2019a). Revised Thermocouple Reference Tables - Type C. In
+T. T. C. C) (Ed.): Reference Tables N.I.S.T. Monograph 175 Revised to ITS-90.</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:21.3pt;text-indent:-21.3pt'><span
+lang=EN-GB>[22]<span style='font:7.0pt "Times New Roman"'> </span></span><span
+lang=EN-GB>Omega. (2019b). Revised Thermocouple Reference Tables - Type S. In
+T. T. C. C) (Ed.): Reference Tables N.I.S.T. Monograph 175 Revised to ITS-90.</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:21.3pt;text-indent:-21.3pt'><span
+lang=EN-GB>[23]<span style='font:7.0pt "Times New Roman"'> </span></span><span
+lang=EN-GB>Getting, I. C., &amp; Kennedy, G. C. (1970). Effect of Pressure on
+the emf of Chromel&#8208;Alumel and Platinum&#8208;Platinum 10% Rhodium
+Thermocouples. Journal of Applied Physics, 41(11), 4552-4562. <a
+href="https://doi.org/10.1063/1.1658495"><span style='color:windowtext'>https://doi.org/10.1063/1.1658495</span></a>
+</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:21.3pt;text-indent:-21.3pt'><span
+lang=EN-GB>[24]<span style='font:7.0pt "Times New Roman"'> </span></span><span
+lang=EN-GB>Chu, T. K., &amp; Chi, T. C. (1981). Properties of Selected Ferrous
+Alloying Elements (Vol. III). Washington: McGraw-Hill.</span></p>
+
+<p class=MsoListParagraphCxSpLast style='margin-left:21.3pt;text-indent:-21.3pt'><span
+lang=EN-GB>[25]<span style='font:7.0pt "Times New Roman"'> </span></span><span
+lang=EN-GB>Berrada, M. (2022). Rho
+(https://www.mathworks.com/matlabcentral/fileexchange/&lt;...&gt;), MATLAB
+Central File Exchange.</span></p>
+
+<p class=MsoNormal><b><span lang=EN-GB>&nbsp;</span></b></p>
+
+</div>
+
+</body>
+
+</html>
