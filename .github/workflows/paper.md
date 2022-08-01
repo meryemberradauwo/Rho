@@ -24,6 +24,8 @@ date: 25 July 2022
 
 bibliography: paper.bib
 
+---
+
 # Summary
 
 Electrical resistivity measurements of metals often use the four-wire method, where data acquisition alternates between temperature and voltage. The temperature and voltage values are similar and manual selection of each set of measurements is time consuming. `Rho` is intended to make electrical resistivity data analysis faster and more reliable by automatically selecting the temperature and voltage measurements using signal processing. The time required to process 52 data points (which consists of approximately 6000 measurements) using `Rho` is less than one minute compared to up to 4 hours for manual processing. `Rho` is stored in FigShare and can be used by any research group conducting alternate temperature and voltage measurements to obtain electrical resistivity at either ambient or extreme conditions.
