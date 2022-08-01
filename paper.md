@@ -49,36 +49,12 @@ First, the intervals of negative values are labelled as voltage measurements (V~
 
 Examples of running the software are displayed in \autoref{Fig.2}. After loading the raw data file, Figure 1 of the application should automatically display the raw data. If the raw data file is in the incorrect format, an error sound will be set, and Figure 1 will not display the raw data. The users should confirm the temperature and voltage selections since similarity in these values might result in the incorrect identification of some data points. The computed ρ can be compared with that of Fe at 1 atm [@Chu:1981].
 
-# Availability
-Users may choose to download Rho.exe file from FigShare or Rho.m from GitHub. 
-Rho.exe – Any system capable of running a .exe file. 
-Rho.m – Any system capable of running Matlab R2012a or higher. 
-
-Tested in Matlab R2012a, likely to work in earlier versions also. 
-
-
-Name: FigShare Archive
-Persistent identifier: 10.6084/m9.figshare.19175432  
-Licence: CC by 4.0
-Publisher: Meryem Berrada
-Version published: 1.0
-Date published: 15/02/22
-
-Name: GitHub
-Identifier: https://github.com/meryemberradauwo/Rho.git 
-Licence: GNU General Public License v3.0
-Date published: 02/02/22
-
 # Statement of need
 The application Rho minimizes the data analysis time and uses signal processing to identify the temperature (emf) and voltage drop measurements from a single column of alternating measurements resulting from the four-wire method. The confirmation of the selection by the user remains required considering the limitations of the attributed thresholds for outliers. This software (Rho.exe) can be used to analyse electrical resistivity for applications to the cooling of industrial devices, soldering processes, electronic systems, temperature determination at depth, and simulations of physical properties of terrestrial-type bodies at high pressures and high temperatures. Rho can be used by any research group conducting alternate temperature (emf) and voltage measurements to obtain electrical resistivity at either ambient or extreme conditions. Modifications to the software, such as changing the identification thresholds, adding TC types or disc materials, can be done through Rho.m via the MATLAB platform. The authors are continuously working to improve the software and implement more features. 
 
-We encourage the reader to download Rho via MATLAB [@Berrada:2022] or through this article. Inquiries can be addressed to the corresponding author of this article, or through the contact information displayed in the software.
+We encourage the reader to download Rho via MATLAB [@Berrada:2022] or through this article [@BerradaGit:2022].
 
 # Acknowledgements
 The application is designed on MATLAB App Designer. MATLAB is a registered trademark of The MathWorks, Inc. This work was supported by funds to R.A.S. from the Natural Sciences and Engineering Research Council of Canada [grant number 2018-05021] and the Canada Foundation for Innovation [project number 11860].
 
 # References 
-
-
-
-
