@@ -22,7 +22,7 @@ affiliations:
 
 date: 25 July 2022
 
-reference-section-title: "References"
+bibliography: paper.bib
 
 # Summary
 
@@ -58,11 +58,4 @@ We encourage the reader to download Rho via MATLAB [@Berrada:2022] or through th
 # Acknowledgements
 The application is designed on MATLAB App Designer. MATLAB is a registered trademark of The MathWorks, Inc. This work was supported by funds to R.A.S. from the Natural Sciences and Engineering Research Council of Canada [grant number 2018-05021] and the Canada Foundation for Innovation [project number 11860].
 
-references: [{"id":"ONeil2019",
-              "type":"webpage",
-              "title":"Chelonian functional programmers — beware mutation!",
-              "container-title":"Medium",
-              "URL":"https://medium.com/@apriloneil/beware-mutation",
-              "author":[{"family":"O'Neil","given":"April"}],
-              "issued":{"date-parts":[[2019,1,6]]},
-              "accessed":{"date-parts":[[2022,3,9]]}}]
+# References
