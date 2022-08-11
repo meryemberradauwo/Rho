@@ -1,8 +1,8 @@
 # Rho
 Application to quickly process alternating voltage/emf values to calculate resistivity and conductivity
 
-The .exe file should be downloaded by the user. 
-If the user wishes to alter the source code, then download the .m file which opens in MatLab. 
+The .exe file (in releases) should be downloaded by the user. 
+If the user wishes to alter the source code, then download the .mlapp file which opens in MatLab App Designer. 
 
 The purpose of this app is to facilitate electrical resistvity calculations by allowing the user to input 
 the parameters that vary from one experiment to the other, such as the sample length and diameter, current 
