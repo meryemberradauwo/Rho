@@ -11,7 +11,8 @@ adjust the quality of the fit by playing with the treshold number.
 
 For feedback or questions, please email me at mberrada@uwo.ca
 
-1. Prerequisites for Deployment 
+Prerequisites for Deployment 
+================================
 
 Verify that version 9.11 (R2021b) of the MATLAB Runtime is installed.   
 If not, you can run the MATLAB Runtime installer.
@@ -31,7 +32,6 @@ For more information about the MATLAB Runtime and the MATLAB Runtime installer, 
 "Distribute Applications" in the MATLAB Compiler documentation  
 in the MathWorks Documentation Center.
 
-2. Files to Deploy and Package
 
 Files to Package for Standalone 
 ================================
@@ -43,14 +43,13 @@ Files to Package for Standalone
     Deployment Tool.
 -This readme file 
 
-3. Definitions
-
 For information on deployment terminology, go to
 https://www.mathworks.com/help and select MATLAB Compiler >
 Getting Started > About Application Deployment >
 Deployment Product Terms in the MathWorks Documentation
 Center.
 
-#common error message
+Common error message 
+================================
 - _Error using cell2mat. All contents of the input cell array must be of the same data type._ 
 This error appears when the file loaded has the incorrect format (e.g., if the excel cells are not set as “Numbers”, or if the values are not in one column). 
