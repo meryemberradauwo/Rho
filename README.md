@@ -50,3 +50,7 @@ https://www.mathworks.com/help and select MATLAB Compiler >
 Getting Started > About Application Deployment >
 Deployment Product Terms in the MathWorks Documentation
 Center.
+
+#common error message
+- _Error using cell2mat. All contents of the input cell array must be of the same data type._ 
+This error appears when the file loaded has the incorrect format (e.g., if the excel cells are not set as “Numbers”, or if the values are not in one column). 
